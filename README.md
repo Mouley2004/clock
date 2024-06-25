@@ -13,6 +13,7 @@ Features:
 
 
 Input Signals:
+
 reset : Active high reset pulse, to set the time to the input hour and minute (as defined by the H_in1, H_in0, M_in1, and M_in0 inputs) and the second to 00. It should also set the alarm value to 0.00.00, and to set the Alarm (output) low.For normal operation, this input pin should be 0
 
 clk : A 10Hz input clock. This should be used to generate each real-time second

@@ -1,10 +1,15 @@
 # Clock with Alarm
 A clock in verilog with Alarm
+
 Features:
 *Clock generation
+
 *Initializing clock time to a particular value
+
 *Setting time for alarm.
+
 *Enabling and disabling alarm
+
 *Stopping alarm
 
 

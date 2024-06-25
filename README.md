@@ -1,12 +1,11 @@
 # Clock with Alarm
 A clock in verilog with Alarm
-We are generating a clock with 7 output signals including Alarm signal, Hour, Minute, and seconds. All the signals are discussed in detail further. 
-The clock generated is in a 24 - hour format. We can give an initial time value to the system when reset signal=1 or by turning the signal LD_time=1.
-You can further set the alarm time by turning LD_alarm=1. The alarm is enabled or disabled using the input AL_ON. The alarm rings only if AL_ON is 1.
-STOP_al signal is used to stop the alarm. The input clock given as input is 10Hz.
-We have generated a clk with time period 1 second from this input clock and used it to increment seconds and further minutes and hours.
-
-
+Features:
+*Clock generation
+*Initializing clock time to a particular value
+*Setting time for alarm.
+*Enabling and disabling alarm
+*Stopping alarm
 Input Signals:
 reset : Active high reset pulse, to set the time to the input hour and minute (as defined by the H_in1, H_in0, M_in1, and M_in0 inputs) and the second to 00. It should also set the alarm value to 0.00.00, and to set the Alarm (output) low.For normal operation, this input pin should be 0
 

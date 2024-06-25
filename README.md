@@ -2,6 +2,7 @@
 A clock in verilog with Alarm
 
 Features:
+
 *Clock generation
 
 *Initializing clock time to a particular value
